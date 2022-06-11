@@ -3,7 +3,8 @@ from tkinter import messagebox, Entry
 import pymysql
 global issueBtn, labelFrame, lb1, inf1, inf2, inf4, quitBtn, root, Canvas1, status, inf3, check
 
-con = pymysql.connect(host="localhost", user="root", password="shahithya@2772", database="db")
+# please enter your own mysql host username and password
+con = pymysql.connect(host="localhost", user="root", password="xxxxx", database="db")
 cur = con.cursor()
 
 allBid = []
