@@ -4,7 +4,8 @@ import pymysql
 
 global SubmitBtn, labelFrame, lb1, bookInfo1, bookInfo2, quitBtn, root, Canvas1, status, check
 
-con = pymysql.connect(host="localhost", user="root", password="shahithya@2772" ,database="db")
+# please enter your own mysql host username and password
+con = pymysql.connect(host="localhost", user="root", password="xxxx" ,database="db")
 cur = con.cursor()
 
 allBid = []
