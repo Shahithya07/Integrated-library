@@ -2,7 +2,8 @@ from tkinter import *
 from tkinter import messagebox
 import pymysql
 
-con = pymysql.connect(host="localhost", user="root", password="shahithya@2772", database="db")
+# please enter your own mysql host username and password
+con = pymysql.connect(host="localhost", user="root", password="xxxxx", database="db")
 cur = con.cursor()
 
 def View():
