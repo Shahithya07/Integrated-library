@@ -33,6 +33,6 @@ create table books(bid varchar(20) primary key, title varchar(30), author varcha
 
 create table books_issued(bid varchar(20) primary key, name varchar(30), issuedDate date, returnDate date);
 
-create table student(register_number int, name varchar(50), emailId varchar(60), PhoneNumber varchar(10), password varchar(100));
+create table student(register_number int primary key, name varchar(50), emailId varchar(60), PhoneNumber varchar(10), password varchar(100));
 
 
