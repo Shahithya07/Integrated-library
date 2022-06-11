@@ -27,10 +27,8 @@ def register():
     root.minsize(width=400, height=400)
     root.geometry("600x500")
 
-    my_pass = "shahithya@2772"
-    my_database = "db"
-
-    con = pymysql.connect(host="localhost", user="root", password=my_pass, database=my_database)
+    # please enter your own mysql host username and password
+    con = pymysql.connect(host="localhost", user="root", password="xxxx", database="db")
     cur = con.cursor()
 
     Canvas1 = Canvas(root)
