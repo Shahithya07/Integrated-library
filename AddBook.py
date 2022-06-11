@@ -35,7 +35,8 @@ def add_book():
     root.minsize(width=400, height=400)
     root.geometry("600x500")
 
-    con = pymysql.connect(host="localhost", user="root", password="shahithya@2772", database="db")
+    # please enter your own mysql host username and password
+    con = pymysql.connect(host="localhost", user="root", password="xxxxx", database="db")
     cur = con.cursor()
 
     Canvas1 = Canvas(root)
