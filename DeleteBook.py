@@ -3,8 +3,8 @@ from tkinter import messagebox
 import pymysql
 global bookInfo1, bookInfo2, bookInfo3, bookInfo4, Canvas1, root
 
-
-con = pymysql.connect(host="localhost", user="root", password="shahithya@2772", database="db")
+# please enter your own mysql host username and password
+con = pymysql.connect(host="localhost", user="root", password="xxxxx", database="db")
 cur = con.cursor()
 
 def deleteBook():
